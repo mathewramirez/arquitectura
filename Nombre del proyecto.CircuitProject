@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.5" Frequency="1" LogicalCircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.20000000000000004" Frequency="1" LogicalCircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" />
 	<CollapsedCategory Name="sumadores" />
 	<LogicalCircuit LogicalCircuitId="eee4b6da-dea1-456b-a88b-9383c32531f9" Name="Principal" Notation="Principal" />
 	<LogicalCircuit LogicalCircuitId="d2c4fa1d-98a7-4488-9bd7-1e8272a95f2b" Name="Sumador Completo" Notation="SUMA_COMP 4B" Category="sumadores" />
@@ -293,12 +293,12 @@
 	<Pin PinId="e276d86e-b1e5-45cf-97b2-12fd36f31224" CircuitId="1ae7d616-ebbb-4ba5-9756-e51cd14fed25" Name="S2" />
 	<Pin PinId="497657b4-2516-4358-aac9-c3bfd7837dff" CircuitId="1ae7d616-ebbb-4ba5-9756-e51cd14fed25" Name="S1" />
 	<Pin PinId="b3a5b41b-f418-45c3-b533-e94c1a89ab1a" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="CLK_MUX" />
-	<Pin PinId="53edd8f6-f748-49aa-b316-d8fa5dd09f5e" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="COL01" />
-	<Pin PinId="a488617e-9b36-40e4-946c-35bd956fcded" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="ROW2" />
-	<Pin PinId="838900ba-8d9a-49b7-9569-50fd46278c40" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="COL21" />
-	<Pin PinId="7606b27e-da80-4493-aa66-8c619899c927" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="ROW01" />
-	<Pin PinId="846c6b34-3b1b-4559-8a9e-681298789027" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="ROW12" />
-	<Pin PinId="4ca79606-3c9f-4ad0-8421-4c904be5100c" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="COL11" />
+	<Pin PinId="53edd8f6-f748-49aa-b316-d8fa5dd09f5e" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="C0" />
+	<Pin PinId="a488617e-9b36-40e4-946c-35bd956fcded" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="R2" />
+	<Pin PinId="838900ba-8d9a-49b7-9569-50fd46278c40" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="C2" />
+	<Pin PinId="7606b27e-da80-4493-aa66-8c619899c927" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="R0" />
+	<Pin PinId="846c6b34-3b1b-4559-8a9e-681298789027" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="R1" />
+	<Pin PinId="4ca79606-3c9f-4ad0-8421-4c904be5100c" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="C1" />
 	<Pin PinId="abe3b501-9d9f-4f73-891f-0777d8846b58" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="RST" />
 	<Pin PinId="6415d58d-0393-4673-863c-463d022ec58e" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="WE" />
 	<Pin PinId="fbd6124a-bf94-479f-8737-d818eddae4bf" CircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="DATA" />
@@ -426,15 +426,15 @@
 	<Constant ConstantId="1982fc5b-e942-402a-95d0-10afef3d9a7a" />
 	<Constant ConstantId="18a8465c-c51b-49ed-b6f1-ef3893863da9" />
 	<Constant ConstantId="c9dcb1d3-fdb1-48c6-8ef5-9619577b0bd0" Value="1" />
-	<Constant ConstantId="312ea681-1bdc-4852-8ba5-130ee17f6f26" Value="1" />
-	<Constant ConstantId="f27db85c-d5ac-44c7-88ec-bbc5ac359ce5" />
-	<Constant ConstantId="c289072b-e963-4d67-bfc1-ef42e013aede" Value="1" />
-	<Constant ConstantId="ef3f840b-b4c8-465a-84a7-95defaa4fbac" Value="1" />
-	<Constant ConstantId="40ef71a8-2e68-44ae-b2c5-0b1e45ac8dae" Value="1" />
+	<Constant ConstantId="312ea681-1bdc-4852-8ba5-130ee17f6f26" />
+	<Constant ConstantId="f27db85c-d5ac-44c7-88ec-bbc5ac359ce5" Value="1" />
+	<Constant ConstantId="c289072b-e963-4d67-bfc1-ef42e013aede" />
+	<Constant ConstantId="ef3f840b-b4c8-465a-84a7-95defaa4fbac" />
+	<Constant ConstantId="40ef71a8-2e68-44ae-b2c5-0b1e45ac8dae" />
 	<Constant ConstantId="98fbabe5-c420-4d24-96da-a1116564db2c" Value="1" />
-	<Constant ConstantId="039badeb-4869-4ce1-96a5-56d8eb212c2a" />
+	<Constant ConstantId="039badeb-4869-4ce1-96a5-56d8eb212c2a" Value="1" />
 	<Constant ConstantId="1d4e3a01-4501-41bd-a868-4c9a04276bb2" />
-	<Constant ConstantId="72b2757e-07f7-49fe-b6db-67948c40c2da" />
+	<Constant ConstantId="72b2757e-07f7-49fe-b6db-67948c40c2da" Value="1" />
 	<LedMatrix LedMatrixId="ade90a2f-b1b3-4f09-9948-46dca893936c" MatrixType="Selector" Rows="8" Columns="8" />
 	<LedMatrix LedMatrixId="e5e9e5a1-6005-4c1f-b725-f8d84c0bbe2f" MatrixType="Selector" Rows="8" Columns="8" />
 	<CircuitSymbol CircuitSymbolId="cdc021aa-2abb-47d5-884a-b65a0586bfa0" CircuitId="ea35213c-6a2f-4f72-904f-0d6ff42433af" LogicalCircuitId="d2c4fa1d-98a7-4488-9bd7-1e8272a95f2b" X="3" Y="10" />
