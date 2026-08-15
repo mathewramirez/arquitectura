@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.6" Frequency="12" LogicalCircuitId="97e890c0-b492-4bda-9fad-799b06e17aba" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.5" Frequency="12" LogicalCircuitId="e23bb2b7-9e65-4cde-b5c4-e8ffea13d98e" />
 	<CollapsedCategory Name="multiplexores" />
 	<LogicalCircuit LogicalCircuitId="eee4b6da-dea1-456b-a88b-9383c32531f9" Name="Principal" Notation="Principal" />
 	<LogicalCircuit LogicalCircuitId="d2c4fa1d-98a7-4488-9bd7-1e8272a95f2b" Name="Sumador Completo" Notation="SUMA_COMP 4B" Category="sumadores" />
@@ -27,7 +27,7 @@
 	<LogicalCircuit LogicalCircuitId="20272415-2be2-476c-a041-543b4120b360" Name="Contador_3b" Notation="CNT_3b" />
 	<LogicalCircuit LogicalCircuitId="1ae7d616-ebbb-4ba5-9756-e51cd14fed25" Name="Multiplexor_8x1" Notation="MUX8x1" Category="multiplexores" />
 	<LogicalCircuit LogicalCircuitId="d81edaf9-5213-40e4-8d8c-8721b4dc5c6f" Name="SRC_8x8_v2" Notation="SRC_8x8_v2" />
-	<LogicalCircuit LogicalCircuitId="e23bb2b7-9e65-4cde-b5c4-e8ffea13d98e" Name="Circuito" Notation="Circuito" />
+	<LogicalCircuit LogicalCircuitId="e23bb2b7-9e65-4cde-b5c4-e8ffea13d98e" Name="EVAL_AX2B" Notation="EVAL_AX2B" />
 	<LogicalCircuit LogicalCircuitId="97e890c0-b492-4bda-9fad-799b06e17aba" Name="EVA_MXB" Notation="EVA_MXB" />
 	<LogicalCircuit LogicalCircuitId="90c3c46d-635f-45ad-8472-8fc294c6f6c7" Name="CNT_8B" Notation="CNT_8B" />
 	<Pin PinId="ea35213c-6a2f-4f72-904f-0d6ff42433af" CircuitId="d2c4fa1d-98a7-4488-9bd7-1e8272a95f2b" Name="valor1" />
