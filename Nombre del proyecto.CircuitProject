@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.6" Frequency="9" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.7999999999999999" Frequency="9" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" />
 	<CollapsedCategory Name="multiplexores" />
 	<CollapsedCategory Name="sumadores" />
 	<LogicalCircuit LogicalCircuitId="eee4b6da-dea1-456b-a88b-9383c32531f9" Name="Principal" Notation="Principal" />
@@ -497,7 +497,7 @@
 	<Constant ConstantId="425d390c-319c-47b6-afd3-38820f96e161" />
 	<Constant ConstantId="6b376c53-ccc5-409e-81d6-4932ed0fe09b" Value="1" />
 	<Constant ConstantId="d589a223-513a-4202-875e-0178a69ebac9" />
-	<Constant ConstantId="80b18f68-e804-493e-9b03-9765acb326ec" />
+	<Constant ConstantId="80b18f68-e804-493e-9b03-9765acb326ec" Value="1" />
 	<CircuitButton CircuitButtonId="f917b606-9ef0-45f5-bcee-2649e3dc50c5" Notation="INICIO" Width="4" />
 	<CircuitButton CircuitButtonId="9624c728-b5bf-43cd-8e3d-f4d4b7487afe" Notation="RST" />
 	<LedMatrix LedMatrixId="ade90a2f-b1b3-4f09-9948-46dca893936c" MatrixType="Selector" Rows="8" Columns="8" />
@@ -7828,7 +7828,6 @@
 	<Wire WireId="445194b6-c6fb-4198-91b1-75ac367184fe" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="15" Y1="5" X2="15" Y2="17" />
 	<Wire WireId="38a2dd4e-17dd-42de-a9b6-bb3c5d8a7323" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="15" Y1="17" X2="22" Y2="17" />
 	<Wire WireId="17e1b7c8-1b97-45ef-8e23-fe0533dc6ea7" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="48" Y1="50" X2="48" Y2="60" />
-	<Wire WireId="5151ea3a-966f-479f-9151-9b87c78cd113" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="44" Y1="62" X2="47" Y2="62" />
 	<Wire WireId="d6e3043d-4b5a-49d1-9446-41d69d53eabe" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="47" Y1="62" X2="48" Y2="62" />
 	<Wire WireId="d301c0d3-3ef9-4e8a-a8c7-045682dd0ccf" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="48" Y1="22" X2="51" Y2="22" />
 	<Wire WireId="5ba6a272-93e7-4591-8855-fe43825c74a4" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="51" Y1="22" X2="51" Y2="51" />
@@ -7929,15 +7928,16 @@
 	<Wire WireId="05ff33bf-4b71-4a04-8d14-031d55e5b16f" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="41" Y1="28" X2="35" Y2="28" />
 	<Wire WireId="259f48b2-5325-432b-a783-f654a5f7a203" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="35" Y1="28" X2="35" Y2="29" />
 	<Wire WireId="25e6d3b7-db19-4795-ba11-b1d7a5d9075b" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="38" Y1="43" X2="38" Y2="50" />
-	<Wire WireId="ef0cac52-46dc-409c-901b-5781da8150aa" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="40" Y1="62" X2="41" Y2="62" />
 	<Wire WireId="1e1fb60d-3b49-4fe6-b94c-fe53e93551dc" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="44" Y1="62" X2="44" Y2="59" />
 	<Wire WireId="59aa5237-be3a-4df1-bd64-d009e48bc865" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="50" Y1="57" X2="57" Y2="57" />
 	<Wire WireId="69ebfd76-03b3-48ba-97f6-05a2164906c6" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="57" Y1="57" X2="61" Y2="57" />
 	<Wire WireId="5ff22f03-3a5b-4905-b167-3a504f0aebee" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="47" Y1="48" X2="47" Y2="55" />
 	<Wire WireId="4657db1a-39b3-476f-8c4d-5eeacb562a37" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="47" Y1="55" X2="47" Y2="65" />
-	<Wire WireId="26ccf998-8c4b-4686-8c14-ae19acabb54a" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="47" Y1="65" X2="40" Y2="65" />
-	<Wire WireId="0b5466bd-6f19-4b2c-b7da-e97a759cf6a9" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="40" Y1="65" X2="40" Y2="62" />
+	<Wire WireId="26ccf998-8c4b-4686-8c14-ae19acabb54a" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="47" Y1="65" X2="45" Y2="65" />
 	<Wire WireId="acd6e8f3-3299-4f59-b470-8a8d1b6292b2" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="61" Y1="50" X2="56" Y2="50" />
+	<Wire WireId="3592f34a-1b9c-4f46-a403-bdb3ba17fec1" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="40" Y1="62" X2="41" Y2="62" />
+	<Wire WireId="7d3f2a82-eb89-41be-8d5e-42c77172aff8" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="44" Y1="62" X2="45" Y2="62" />
+	<Wire WireId="d482d118-eb1b-4e3a-890e-18d097401666" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="45" Y1="65" X2="45" Y2="62" />
 	<TextNote TextNoteId="0ecef7df-b0b7-4a1f-9a14-3d450d020a62" LogicalCircuitId="cf5bd533-392d-470d-a220-0d7dbda8c9e9" X="43" Y="3" Width="5" Height="3" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;M(1) resta&lt;/Paragraph&gt;&lt;Paragraph&gt;M(0) suma&lt;/Paragraph&gt;&lt;Paragraph xml:space=&quot;preserve&quot; /&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="4c35047b-5291-489d-b47d-86743737d1c4" LogicalCircuitId="cf5bd533-392d-470d-a220-0d7dbda8c9e9" X="18" Y="1" Width="9" Height="5" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;sust(sustrayendo)&lt;/Paragraph&gt;&lt;Paragraph&gt;minu(minuendo)&lt;/Paragraph&gt;&lt;Paragraph xml:space=&quot;preserve&quot;&gt;se escribe de izquierda a derecha &lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="b616fa3b-3b66-4484-909d-c0e3e53b9e54" LogicalCircuitId="4882e555-4906-478b-98b7-88a98cf0edcc" X="56" Y="4" Width="5" Height="3" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;M(1) resta&lt;/Paragraph&gt;&lt;Paragraph&gt;M(0) suma&lt;/Paragraph&gt;&lt;Paragraph xml:space=&quot;preserve&quot; /&gt;&lt;/FlowDocument&gt;" />
