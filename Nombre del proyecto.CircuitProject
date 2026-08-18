@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.6" Frequency="12" LogicalCircuitId="f8bcc49a-fec6-4bda-b1d5-e52b5e6d3c79" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.8999999999999999" Frequency="12" LogicalCircuitId="f8bcc49a-fec6-4bda-b1d5-e52b5e6d3c79" />
 	<CollapsedCategory Name="multiplexores" />
 	<CollapsedCategory Name="sumadores" />
 	<LogicalCircuit LogicalCircuitId="eee4b6da-dea1-456b-a88b-9383c32531f9" Name="Principal" Notation="Principal" />
@@ -7855,7 +7855,7 @@
 	<Wire WireId="7445190c-abe4-49a8-a9b7-103e96b3a2e5" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="71" Y1="76" X2="17" Y2="76" />
 	<Wire WireId="59e94f0e-666f-44dd-b631-d54c56e3a1fa" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="17" Y1="76" X2="17" Y2="31" />
 	<Wire WireId="dd0f0a8f-bc68-4da6-a1c3-e7b90657badb" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="17" Y1="31" X2="22" Y2="31" />
-	<Wire WireId="0ec116cd-8d33-4209-b726-35a013b86e5c" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="44" Y1="22" X2="44" Y2="20" />
+	<Wire WireId="0ec116cd-8d33-4209-b726-35a013b86e5c" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="19" Y1="19" X2="44" Y2="20" />
 	<Wire WireId="d9b959a7-e6e7-4f86-b072-dbb082440a15" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="44" Y1="20" X2="45" Y2="20" />
 	<Wire WireId="c1cf6e1a-ee20-4cf5-85cf-14abbdbb6b3b" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="48" Y1="20" X2="45" Y2="20" />
 	<Wire WireId="bda48ee8-3d6e-457f-85ae-6d54037f70eb" LogicalCircuitId="17fc16d9-9b49-452c-82a5-e6640c2c1749" X1="44" Y1="22" X2="44" Y2="24" />
