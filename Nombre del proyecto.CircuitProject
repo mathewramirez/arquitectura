@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.6" Frequency="39" LogicalCircuitId="c4fa8269-a218-4a2f-8987-53943102d63f" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.6" Frequency="39" LogicalCircuitId="18eebb7d-c763-45c7-997f-0b76d32d7352" />
 	<CollapsedCategory Name="multiplexores" />
 	<LogicalCircuit LogicalCircuitId="eee4b6da-dea1-456b-a88b-9383c32531f9" Name="Principal" Notation="Principal" />
 	<LogicalCircuit LogicalCircuitId="d2c4fa1d-98a7-4488-9bd7-1e8272a95f2b" Name="Sumador Completo" Notation="SUMA_COMP 4B" Category="sumadores" />
@@ -722,7 +722,7 @@
 	<Pin PinId="abcc4f03-80d4-484a-bd86-92550fa2bae9" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="cen_f" />
 	<Pin PinId="4f12db01-f3e5-47c5-b9f7-e7f606ddf18c" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="cen_g" />
 	<Pin PinId="48d37d6a-61be-49b9-b644-0be20f17bd2a" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="dec_g" />
-	<Pin PinId="3021bbd9-68ee-416f-bc0a-fcd45422d98c" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="desc_d" />
+	<Pin PinId="3021bbd9-68ee-416f-bc0a-fcd45422d98c" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="dec_d" />
 	<Pin PinId="c39ae666-f54c-4391-a5d5-bc2b38654ac0" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="dec_e" />
 	<Pin PinId="4bf43786-1c16-452f-af7c-c4c7156041b3" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="dec_a" />
 	<Pin PinId="6676137b-58ad-4345-bef1-84f1ebd703cf" CircuitId="bb0b2e8b-1e74-423c-a7f7-3201eb50bd3d" PinType="Output" PinSide="Right" Name="dec_b" />
@@ -966,10 +966,6 @@
 	<Constant ConstantId="c6bf53db-485c-4f3a-ae2d-b0a9ee55f756" />
 	<Constant ConstantId="917fe669-94fd-4272-99d8-27a80cc09760" />
 	<Constant ConstantId="9e96fbb6-273b-464f-8e18-6db0d25942a5" />
-	<Constant ConstantId="2ddc71f7-728d-42e0-a602-fcca2d0f0b69" Value="1" />
-	<Constant ConstantId="25638a51-bf98-4bab-b9b2-bd96d5e9cd2f" />
-	<Constant ConstantId="05814da9-62dd-43dc-a774-10983fe74351" />
-	<Constant ConstantId="5f0cfe71-4434-4afd-bef6-aa0eb985f057" Value="1" />
 	<Constant ConstantId="2a4e58f3-56ee-4fab-b687-c192212de80e" />
 	<Constant ConstantId="e9456a1c-ab6d-4788-b822-21803d4183e9" />
 	<Constant ConstantId="232d44fc-efad-4046-883c-094f30894670" />
@@ -2466,10 +2462,6 @@
 	<CircuitSymbol CircuitSymbolId="878c9e99-1da9-4d5a-8d61-2638d2ab5324" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="30" Y="8" />
 	<CircuitSymbol CircuitSymbolId="99c5d977-7fbd-4180-b4c3-90378976cb31" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="30" Y="14" />
 	<CircuitSymbol CircuitSymbolId="b1516f84-76c6-4edc-bf81-460ed331336c" CircuitId="00000000-0000-0000-0000-000000030300" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="36" Y="11" />
-	<CircuitSymbol CircuitSymbolId="023f5c47-e4e8-465c-90b4-fbb928284a2b" CircuitId="2ddc71f7-728d-42e0-a602-fcca2d0f0b69" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="2" Y="9" />
-	<CircuitSymbol CircuitSymbolId="33494604-695a-41f6-b484-1daacbdc0c71" CircuitId="25638a51-bf98-4bab-b9b2-bd96d5e9cd2f" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="2" Y="13" />
-	<CircuitSymbol CircuitSymbolId="29c6dac6-07b4-4fa3-8d5e-310f8b6f0240" CircuitId="05814da9-62dd-43dc-a774-10983fe74351" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="2" Y="17" />
-	<CircuitSymbol CircuitSymbolId="4abed4a7-5222-437b-9e4e-ecbbb951d919" CircuitId="5f0cfe71-4434-4afd-bef6-aa0eb985f057" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="2" Y="22" />
 	<CircuitSymbol CircuitSymbolId="5fe8c4f3-aaad-46eb-b884-645c3398c239" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="70" Y="8" />
 	<CircuitSymbol CircuitSymbolId="00e3c31f-0b10-4120-8cb4-ce1bc421fa13" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="70" Y="10" />
 	<CircuitSymbol CircuitSymbolId="cb322493-644d-4024-8056-c5c46cd7880f" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="5e0471c6-fc2d-4d79-b4dc-e54325cae16b" X="70" Y="12" />
