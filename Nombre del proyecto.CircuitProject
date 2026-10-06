@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.5637078651685453" Frequency="26" LogicalCircuitId="0d036c3b-5037-416a-b1e1-563dac5dced7" CategoryTextNoteCollapsed="True" CategoryInputOutputCollapsed="True" CategoryPrimitivesCollapsed="True" />
-	<CollapsedCategory Name="Auxiliares" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.4" Frequency="12" LogicalCircuitId="0d036c3b-5037-416a-b1e1-563dac5dced7" CategoryTextNoteCollapsed="True" CategoryInputOutputCollapsed="True" CategoryPrimitivesCollapsed="True" />
 	<CollapsedCategory Name="ComponentesBase" />
 	<CollapsedCategory Name="Contadores" />
 	<CollapsedCategory Name="Decodificado" />
 	<CollapsedCategory Name="Display" />
-	<CollapsedCategory Name="Evaluadores" />
+	<CollapsedCategory Name="Flip-flop" />
 	<CollapsedCategory Name="Integracion" />
 	<CollapsedCategory Name="Multiplicadores" />
 	<CollapsedCategory Name="Pantalla" />
 	<CollapsedCategory Name="Secuenciadores" />
+	<CollapsedCategory Name="Evaluadores" />
 	<CollapsedCategory Name="UnidadAritmetica" />
 	<CollapsedCategory Name="multiplexores" />
 	<CollapsedCategory Name="sumadores" />
-	<CollapsedCategory Name="Flip-flop" />
+	<CollapsedCategory />
+	<CollapsedCategory Name="Auxiliares" />
 	<LogicalCircuit LogicalCircuitId="eee4b6da-dea1-456b-a88b-9383c32531f9" Name="Principal" Notation="Principal" />
 	<LogicalCircuit LogicalCircuitId="d2c4fa1d-98a7-4488-9bd7-1e8272a95f2b" Name="Sumador Completo" Notation="SUMA_COMP 4B" Category="sumadores" />
 	<LogicalCircuit LogicalCircuitId="cf5bd533-392d-470d-a220-0d7dbda8c9e9" Name="Sumador-Restador 4b" Notation="SUMA_RESTA 4B" Category="sumadores" />
@@ -1034,7 +1035,6 @@
 	<CircuitButton CircuitButtonId="18976e1e-9494-43b6-b714-c326dc4aee04" Notation="Sel_0" IsToggle="True" Width="5" />
 	<CircuitButton CircuitButtonId="9711a989-4bfa-4589-aa5f-c8226729d3c8" Notation="Sel_1" IsToggle="True" Width="5" />
 	<CircuitButton CircuitButtonId="169c7490-17d0-450c-8808-ff129160b552" Notation="lineal" Width="5" />
-	<LedMatrix LedMatrixId="ade90a2f-b1b3-4f09-9948-46dca893936c" MatrixType="Selector" Rows="8" Columns="8" />
 	<LedMatrix LedMatrixId="e5e9e5a1-6005-4c1f-b725-f8d84c0bbe2f" MatrixType="Selector" Rows="8" Columns="8" />
 	<LedMatrix LedMatrixId="0bcb0d74-3a0e-4265-ad6f-769e62c650ca" MatrixType="Selector" Rows="8" Columns="8" />
 	<LedMatrix LedMatrixId="d7f8d49e-486b-4901-a12e-e0a724eb1036" MatrixType="Selector" Rows="8" Columns="8" />
@@ -14875,6 +14875,8 @@
 	<Wire WireId="5c373bf8-d233-4a1d-a725-7bfc25b0667c" LogicalCircuitId="0d036c3b-5037-416a-b1e1-563dac5dced7" X1="16" Y1="58" X2="53" Y2="58" />
 	<Wire WireId="75d30cac-bd9f-454c-9127-03a8100c78d5" LogicalCircuitId="0d036c3b-5037-416a-b1e1-563dac5dced7" X1="52" Y1="50" X2="53" Y2="50" />
 	<Wire WireId="1e3c68fe-547b-47ff-87a7-813fc51b9f12" LogicalCircuitId="0d036c3b-5037-416a-b1e1-563dac5dced7" X1="53" Y1="50" X2="53" Y2="58" />
+	<Wire WireId="e1b3c7ae-7b65-40fc-aade-44ddbf5d62e2" LogicalCircuitId="1d275acc-c13f-495a-9be2-12401b0202f7" X1="60" Y1="50" X2="57" Y2="50" />
+	<Wire WireId="2644eaeb-e7c4-4091-b891-e440974bcbee" LogicalCircuitId="1d275acc-c13f-495a-9be2-12401b0202f7" X1="57" Y1="50" X2="57" Y2="47" />
 	<TextNote TextNoteId="0ecef7df-b0b7-4a1f-9a14-3d450d020a62" LogicalCircuitId="cf5bd533-392d-470d-a220-0d7dbda8c9e9" X="43" Y="3" Width="5" Height="3" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;M(1) resta&lt;/Paragraph&gt;&lt;Paragraph&gt;M(0) suma&lt;/Paragraph&gt;&lt;Paragraph xml:space=&quot;preserve&quot; /&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="4c35047b-5291-489d-b47d-86743737d1c4" LogicalCircuitId="cf5bd533-392d-470d-a220-0d7dbda8c9e9" X="18" Y="1" Width="9" Height="5" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;sust(sustrayendo)&lt;/Paragraph&gt;&lt;Paragraph&gt;minu(minuendo)&lt;/Paragraph&gt;&lt;Paragraph xml:space=&quot;preserve&quot;&gt;se escribe de izquierda a derecha &lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="b616fa3b-3b66-4484-909d-c0e3e53b9e54" LogicalCircuitId="4882e555-4906-478b-98b7-88a98cf0edcc" X="56" Y="4" Width="5" Height="3" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;M(1) resta&lt;/Paragraph&gt;&lt;Paragraph&gt;M(0) suma&lt;/Paragraph&gt;&lt;Paragraph xml:space=&quot;preserve&quot; /&gt;&lt;/FlowDocument&gt;" />
