@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.5" Frequency="6" LogicalCircuitId="0d036c3b-5037-416a-b1e1-563dac5dced7" CategoryTextNoteCollapsed="True" CategoryInputOutputCollapsed="True" CategoryPrimitivesCollapsed="True" />
+	<Project ProjectId="7a53ca33-b86a-4eeb-855e-bc9d23b01841" Name="Nombre del proyecto" Zoom="0.5" Frequency="6" LogicalCircuitId="cfb2ecc6-c3f7-475e-bfb0-02f1ecdaa277" CategoryTextNoteCollapsed="True" CategoryInputOutputCollapsed="True" CategoryPrimitivesCollapsed="True" />
 	<CollapsedCategory Name="Pantalla" />
 	<CollapsedCategory Name="ComponentesBase" />
 	<CollapsedCategory Name="Flip-flop" />
